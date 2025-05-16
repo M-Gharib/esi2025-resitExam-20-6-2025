@@ -1,0 +1,28 @@
+### 
+POST  http://localhost:8082/api/phdapplications HTTP/1.1
+content-type: application/json
+
+{
+    "announcementId": "001",
+    "applicantName": "John Doe",
+    "applicantCv": "I was ....",   
+    "motivation": "I have ..."  
+}
+
+
+
+### 
+PUT  http://localhost:8083/api/phdaresponse HTTP/1.1
+content-type: application/json
+
+{
+    "announcementId": "001",
+    "applicantName": "John Doe",
+    "applicantCv": "I was ....",   
+    "motivation": "I have ...", 
+    "decision": "Accepted for the position"  
+}
+
+
+
+
